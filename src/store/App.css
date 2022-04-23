@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+.switcher {
+  font-family: 'Material Icons';
+  font-size: 32px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.list__item {
+  display: flex;
+  align-items: center;
+}
+.list__item > img {
+  height: 100px;
+}
+.list__item > .item_name {
+  font-weight: bold;
+}
+.list__item > span {
+  padding: 10px;
+}
+
+.cards {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card__item {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.card__item > img {
+  width: 30vw;
+  max-width: 300px;
+  min-width: 150px;
+}
