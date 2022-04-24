@@ -1,7 +1,7 @@
 import logo from '../logo.svg';
 import './App.css';
 import React, { useState } from 'react';
-import { ToolTip, ImagesList } from './filter/ToolTip';
+import { ToolTip, ImagesList } from './ToolTip';
 
 function App() {
   const [state, setState] = useState('All');

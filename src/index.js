@@ -3,10 +3,10 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 
 /* 1. Задача */
-// import App from './filter/App'
+import App from './filter/App'
 
 /* 2. Задача */
-import App from './store/App';
+//import App from './store/App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

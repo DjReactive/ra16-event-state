@@ -1,8 +1,9 @@
 import { portfolioImages, portfolioCategories } from './defines';
 
 export function ImagesList(props) {
+  const defaultState = 'All';
   const state = props.state;
-  const images = (state !== portfolioCategories[0]) ?
+  const images = (state !== defaultState) ?
     portfolioImages.filter(obj => obj.category === props.state) :
     portfolioImages;
 
